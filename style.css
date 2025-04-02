@@ -202,6 +202,11 @@ FEATURES ↓
 }
 
 .features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
     width: calc(100%/3);
 }
 
@@ -259,6 +264,12 @@ PRICING ↓
     align-items: center;
 }
 
+.plan {
+    display: flex;
+    text-align: center;
+    width: calc(100%/3)
+}
+
 /* 
 
 TESTIMONIALS ↓
@@ -298,6 +309,25 @@ footer {
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
+}
+
+.footer__row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 8% 0;
+}
+
+.footer__logo--img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.footer__column--title {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 
