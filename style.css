@@ -306,6 +306,21 @@ TESTIMONIALS ↓
 }
 
 
+.testimonials__img {
+    width: 50%;
+}
+
+.testimonials__description {
+    width: 50%;
+}
+
+.testimonial__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+
 /* 
 
 START / CALL TO ACTION ↓
