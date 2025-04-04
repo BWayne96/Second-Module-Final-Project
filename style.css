@@ -305,9 +305,28 @@ TESTIMONIALS ↓
     display: flex;
 }
 
+.testimonial__title {
+    padding-bottom: 8px;
+}
 
+.testimonial__para {
+    padding-bottom: 8px;
+}
+
+.section__title {
+    font-size: 48px
+}
+
+.section__tag {
+    font-size: 24px;
+}
+
+.testimonial__rating {
+    padding-bottom: 16px;
+}
 .testimonials__img {
     width: 50%;
+    padding-right: 24px;
 }
 
 .testimonials__description {
@@ -319,7 +338,6 @@ TESTIMONIALS ↓
     height: 80px;
     border-radius: 50px;
 }
-
 
 /* 
 
