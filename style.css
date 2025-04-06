@@ -243,6 +243,14 @@ STEPS ↓
     align-items: center;
 }
 
+.step__title {
+    font-size: 16px;
+}
+
+.step__para {
+    padding-bottom: 8px;
+}
+
 
 /* 
 
