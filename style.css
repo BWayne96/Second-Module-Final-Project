@@ -243,6 +243,14 @@ STEPS ↓
     align-items: center;
 }
 
+.section__title {
+    font-size: 48px;
+}
+
+.section__tag {
+    font-size: 16px;
+}
+
 .step__title {
     font-size: 16px;
 }
