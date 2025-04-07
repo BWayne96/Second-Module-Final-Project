@@ -342,7 +342,10 @@ PRICING ↓
 .plan__middle, 
 .plan__bottom {
     padding: 32px;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
     
 .plan:nth-child(2) {
