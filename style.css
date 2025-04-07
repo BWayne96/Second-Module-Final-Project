@@ -329,6 +329,26 @@ PRICING ↓
 .plan__name {
     font-size: 20px;
     padding: 12px;
+    font-weight: bold;
+    line-height: 1.625
+}
+
+.plan__price {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.625
+}
+
+.plan__duration {
+    font-weight: bold;
+    line-height: 1.625
+}
+
+.plan__target {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
 }
 
 .plan {
@@ -353,7 +373,7 @@ PRICING ↓
 }
     
 .plan:nth-child(1) {
-
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan:nth-child(2) {
@@ -361,7 +381,7 @@ PRICING ↓
 }
 
 .plan:nth-child(3) {
-    
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__stripe {
