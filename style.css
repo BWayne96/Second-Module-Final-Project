@@ -558,6 +558,11 @@ TESTIMONIALS ↓
     display: flex;
 }
 
+#testimonials .section__title {
+    margin-bottom: 24px;
+    line-height: 1.25;
+}
+
 .testimonial__title {
     padding-bottom: 8px;
 }
@@ -567,7 +572,12 @@ TESTIMONIALS ↓
 }
 
 .section__title {
-    font-size: 48px
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
 }
 
 .section__tag {
@@ -590,6 +600,17 @@ TESTIMONIALS ↓
     width: 80px;
     height: 80px;
     border-radius: 50px;
+}
+
+.testimonial__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #edf2f7;
+    border-radius: 50%;
+    margin: 0 12px;
+    transition: all 300ms;
 }
 
 /* 
