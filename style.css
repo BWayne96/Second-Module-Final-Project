@@ -208,6 +208,9 @@ h1 {
 }
 
 .header__email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     position: relative;
     max-width: 448px;
     width: 100%;
@@ -221,14 +224,27 @@ h1 {
     color: rgb(36, 62, 99);
     font-size: 16px;
     font-weight: 500;
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     z-index: 1;
     transition: border-color 300ms;
+    width: 100%;
 }
 
-
+.header__email--btn {
+    position: relative;
+    z-index: 2;
+    background-color: #6415ff;
+    color: white;
+    border: none;
+    height: calc(100% - 16px);
+    border-radius: 400px;
+    margin: 0 8px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 160px;
+}
 /* 
 
 FEATURES ↓
