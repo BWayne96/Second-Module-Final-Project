@@ -282,6 +282,21 @@ FEATURES ↓
     align-items: center;
 }
 
+svg.features__blob {
+    transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 16rem;
+    opacity: 0.25;
+    padding: 16px;
+}
+
+svg {
+    width: 600;
+    height: 600;
+}
+
 .section__tag {
     font-size: 16px;
     color: #6415ff;
@@ -460,6 +475,10 @@ VALUES ↓
     margin-bottom: 32px;
 }
 
+#values.btn {
+    margin-top: 48px;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -506,6 +525,22 @@ VALUES ↓
     font-weight: 500;
     color: #7c8ba1;
     line-height: 1.625;
+}
+
+.btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms;
+}
+
+button {
+    cursor: pointer;
+    border: none;
 }
 
 div {
@@ -700,6 +735,11 @@ TESTIMONIALS ↓
 .testimonial__buttons {
     display: flex;
     align-items: center;
+}
+
+.testimonial__bottom {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 
