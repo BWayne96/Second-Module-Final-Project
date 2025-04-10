@@ -697,6 +697,11 @@ TESTIMONIALS ↓
     transition: all 300ms;
 }
 
+.testimonial__buttons {
+    display: flex;
+    align-items: center;
+}
+
 /* 
 
 START / CALL TO ACTION ↓
