@@ -457,7 +457,10 @@ STEPS ↓
     display: flex;
     align-items: flex-start;
     margin-top: 32px;
+    gap: 20px;
 }
+
+
 
 img {
     width: 100%;
@@ -507,6 +510,10 @@ VALUES ↓
     font-size: 20px;
     font-weight: bold;
     color: #243e63;
+}
+
+.value__title {
+    display: flex;
 }
 
 .value__para {
@@ -586,6 +593,10 @@ PRICING ↓
 
 .plans{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 60px;
+    z-index: 100;
 }
 
 .plan__name {
@@ -598,7 +609,8 @@ PRICING ↓
 .plan__price {
     font-size: 48px;
     font-weight: bold;
-    line-height: 1.625
+    line-height: 1.625;
+    margin: 4px 0;
 }
 
 .plan__duration {
@@ -632,20 +644,29 @@ PRICING ↓
     align-items: center;
 }
 
+.plan__top--divider {
+    width: calc(100%/3);
+    height: 2px;
+
+}
+
 .plan__bottom {
     padding: 32px 64px;
 }
     
 .plan:nth-child(1) {
     background: white;
+    border-radius: 10px;
 }
 
 .plan:nth-child(2) {
     background:linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 10px;
 }
 
 .plan:nth-child(3) {
     background: white;
+    border-radius: 10px;
 }
 
 .plan:nth-child(1) .plan__stripe {
