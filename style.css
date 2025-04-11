@@ -74,7 +74,7 @@ div {
     display: flex;
     align-items: center;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     padding-bottom: 2px;
 }
 
@@ -420,6 +420,11 @@ STEPS ↓
 
 .section__tag {
     font-size: 16px;
+}
+
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
 }
 
 .step__title {
@@ -852,7 +857,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 24px;
     z-index: 2;
 }
@@ -933,6 +938,47 @@ a {
     z-index: 2;
     cursor: pointer;
     transition: all 300ms;
+}
+
+.footer__column--link:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    transition: all 300ms;
+    opacity: 0;
+}
+
+.footer__social--link svg{
+    height: 16px;
+    width: 16px;
+}
+
+.footer__divider {
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background: rgb(116, 44, 255);
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    margin-left: -16px;
+}
+
+.footer__blob--2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: 320px;
+    transform: translateX(128px) translateY(192px);
+    z-index: 1;
+    opacity: 0.5;
 }
 
 /* 
