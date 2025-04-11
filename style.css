@@ -644,12 +644,6 @@ PRICING ↓
     align-items: center;
 }
 
-.plan__top--divider {
-    width: calc(100%/3);
-    height: 2px;
-
-}
-
 .plan__bottom {
     padding: 32px 64px;
 }
