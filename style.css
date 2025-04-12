@@ -522,6 +522,8 @@ VALUES ↓
 
 .values__list {
     display: flex;
+    margin-bottom: 32px;
+    gap: 8px;
 }
 
 .value__name {
@@ -529,10 +531,6 @@ VALUES ↓
     font-size: 20px;
     font-weight: bold;
     color: #243e63;
-}
-
-.value__title {
-    display: flex;
 }
 
 .value__para {
@@ -586,6 +584,8 @@ div {
     display: block;
     unicode-bidi: isolate;
 }
+
+.value
 
 /*
 
