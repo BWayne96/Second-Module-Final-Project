@@ -73,13 +73,18 @@ div {
 .nav__links {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding-bottom: 2px;
+    padding-top: 4px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
 }
 
 .nav__link{ 
     margin: 0 24px;
+
 }
 .nav__link--list{
     display: flex;
@@ -93,7 +98,7 @@ div {
 
 .nav__link--anchor--primary {
     background-color: #6415ff;
-    padding: 8px 20px;
+    padding: 12px 30px;
     border-radius: 30px;
     color: white;
     transition: all 300ms ease;
@@ -187,6 +192,10 @@ div {
     position: fixed;
     top: 24px;
     right: 18px;
+}
+
+a {
+    
 }
 
 
@@ -1148,6 +1157,10 @@ MOBILE RESPONSIVENESS ↓
 
     .btn__menu {
         display: block;
+    }
+
+    .nav__links {
+        display: none;
     }
     header .row {
         flex-direction: column;
