@@ -284,6 +284,16 @@ FEATURES ↓
     align-items: center;
 }
 
+#features svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.25;
+    width: 16rem;
+    padding: 16px;
+    transform: translateX(96px) translateY(192px);
+}
+
 svg.features__blob {
     transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
     position: absolute;
