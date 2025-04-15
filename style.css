@@ -572,10 +572,7 @@ VALUES ↓
     stroke: darkred;
   }
 
-  .values__img {
-    height: 20px;
-    width: 20px;
-  }
+
 
 .row {
     width: 100%;
@@ -686,7 +683,6 @@ p {
 
 .section__title {
     font-size: 48px;
-    text-align: center;
     margin: 16px 0;
 }
 
@@ -781,14 +777,15 @@ p {
 .plan:nth-child(3) {
     background: white;
     border-radius: 10px;
+    
 }
 
 .plan:nth-child(1) .plan__stripe {
-    background: linear-gradient(to right, red,pink);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan:nth-child(3) .plan__stripe {
-    background: linear-gradient(to right, green,lightgreen);
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .pricing__para {
@@ -819,16 +816,20 @@ p {
 .all__btn {
     padding: 16px 32px;
     border-radius: 500px;
-    background: linear-gradient(to right, blue,lightblue);
     color: white;
 }
 
 .plan:nth-child(1) .all__btn {
-    background: linear-gradient(to right, red,pink);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan:nth-child(2) .all__btn {
+color: #6415ff;
+background-color: #f7fafc;
 }
 
 .plan:nth-child(3) .all__btn {
-    background: linear-gradient(to right, green,lightgreen);
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__button {
