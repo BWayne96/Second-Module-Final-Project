@@ -655,13 +655,13 @@ PRICING ↓
 
 */
 
-#pricing .row {
+#Pricing .row {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#pricing .section__para{
+#Pricing .section__para{
     max-width: 576px;
     text-align: center;
 }
@@ -902,7 +902,7 @@ TESTIMONIALS ↓
 
 .testimonials__img {
     width: 50%;
-    padding-right: 24px;
+    padding-right: 64px;
 }
 
 .testimonials__description {
@@ -925,12 +925,14 @@ TESTIMONIALS ↓
 .testimonial__profile {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .testimonial__img {
     width: 80px;
     height: 80px;
     border-radius: 50px;
+
 }
 
 .testimonial__button {
@@ -1010,6 +1012,13 @@ START / CALL TO ACTION ↓
     letter-spacing: 0.025em;
     margin: 1px;
     z-index: 2;
+    
+}
+
+.start__button:nth-child(2) {
+    border-width: 2px;
+    border-color:white;
+    border-style:solid;
 }
 
 .start__title {
@@ -1227,7 +1236,7 @@ MOBILE RESPONSIVENESS ↓
         flex-direction: column;
         align-items: center;
     }
-    #pricing .row {
+    #Pricing .row {
         margin-top: 40px;
     }
 }
