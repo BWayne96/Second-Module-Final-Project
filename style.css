@@ -1062,7 +1062,8 @@ footer {
 .footer__columns {
     width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
     flex-wrap: wrap;
     margin-top: -48px;
 }
@@ -1259,7 +1260,7 @@ MOBILE RESPONSIVENESS ↓
 @media(max-width: 768px) {
     #quality .row,
     #values .row {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     #steps .row,
     #testimonials .row {
@@ -1274,6 +1275,19 @@ MOBILE RESPONSIVENESS ↓
     .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
         width: 100%;
 }
+
+    .values__description {
+        padding-right: 0;
+        text-align:center;
+    }
+
+    .value__title--container {
+        justify-content: center;
+    }
+
+    .section__tag {
+        text-align: center;
+    }
     
 }
 
